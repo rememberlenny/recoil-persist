@@ -95,7 +95,7 @@ ReactDOM.render(
    <RecoilRoot initializeState={({set}) => {
        {/* Use `set` for initialize the state */}
        updateState({set}) {/* If the localStorage has stored state then init state will be overide */}
-    }>
+   }}>
       <RecoilPersist />
       <App />
     </RecoilRoot>
